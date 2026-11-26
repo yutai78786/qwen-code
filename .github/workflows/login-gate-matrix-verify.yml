@@ -55,4 +55,4 @@ jobs:
 
       - name: 'Run Login Path Gate'
         shell: bash
-        run: 'npm run test:release:login-gate'
+        run: 'npm run test:release:login-gate'# (touch: re-register triggers after the usage auto-disable was lifted)
